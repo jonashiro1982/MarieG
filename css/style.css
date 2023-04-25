@@ -1,0 +1,147 @@
+header h2 {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    color: #b02a37;
+}
+
+header {
+    text-align: center;
+    margin: 150px;
+}
+
+header h1 {
+    color: #0d6efd;
+    font-family: "Book Antiqua", sans-serif;
+    font-size: 4em;
+}
+
+header img {
+    margin-top: 150px;
+    width: 20%;
+    opacity: 0.6;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav h2 {
+    margin: 50px;
+    font-size: 2.5em;
+    padding-bottom: 15px;
+    color: #b02a37;
+}
+
+nav li {
+    display: inline;
+    font-size: 2em;
+    margin: 100px 200px;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.en_tete h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.intro {
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.intro h2 {
+    color: #b02a37;
+    padding-bottom: 20px;
+}
+
+.intro h4 {
+    margin: 50px;
+    padding-bottom: 50px;
+    font-family: "Berlin Sans FB Demi", sans-serif;
+}
+
+section h1 {
+    text-align: center;
+    margin: 100px;
+    color: #b02a37;
+}
+section h3{
+    text-align: center;
+}
+
+#articles {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.article {
+    width: 400px;
+    margin: 30px;
+    display: inline-block;
+    padding-bottom: 15px;
+    border: 0 black solid;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.article:hover {
+    box-shadow: 0 14px 28px;
+    transition: 1s;
+}
+
+.article img {
+    min-width: 400px;
+    min-height: 266px;
+}
+
+.image {
+    width: 400px;
+    height: 266px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.article h4 {
+    padding-left: 10px;
+}
+.article h5{
+    padding-left: 10px;
+}
+.article span {
+    display: block;
+    margin: 15px;
+}
+.contact{
+    text-align: center;
+}
+.contact h3{
+    margin: 50px;
+}
+.contact li{
+    padding-bottom: 15px;
+}
+.lot{
+    text-align: center;
+    color: #b02a37;
+}
+footer {
+    position: absolute;
+    right: 1%;
+    bottom: auto;
+}
+
+
+
